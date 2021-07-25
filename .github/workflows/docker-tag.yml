@@ -40,5 +40,5 @@ jobs:
         run: |
           docker buildx build \
           --tag ivanbrazza/freetakserver:${{ steps.branch_name.outputs.SOURCE_TAG }} \
-          --platform linux/amd64,linux/arm/v7,linux/arm64 . --push
+          --platform linux/amd64 . --push
 
