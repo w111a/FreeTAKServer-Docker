@@ -15,7 +15,8 @@ RUN apt-get update && \
 
 
 #PIP3
-RUN pip3 install supervisor &&\
+RUN pip3 install -U pip &&\
+    pip3 install supervisor &&\
     pip3 install requests &&\
     pip3 install flask_login &&\
     pip3 install FreeTAKServer==${FTS_VERSION} && \
