@@ -39,6 +39,6 @@ jobs:
       - name: build the image
         run: |
           docker buildx build \
-          --tag ivanbrazza/freetakserver:${{ steps.branch_name.outputs.SOURCE_TAG }} \
+          --tag tonyw111a/freetakserver:${{ steps.branch_name.outputs.SOURCE_TAG }} \
           --platform linux/amd64 . --push
 
