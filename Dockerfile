@@ -23,7 +23,8 @@ RUN pip3 install -U pip &&\
     pip3 install FreeTAKServer-UI==${FTS_UI_VERSION} && \
     pip3 install defusedxml &&\
     pip3 install pyopenssl &&\
-    pip3 install pytak
+    pip3 install pytak &&\
+    pip3 install WTForms==2.3.3
 
 # Create FTS user
 RUN addgroup --gid 1000 fts && \
