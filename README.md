@@ -54,4 +54,4 @@ The docker image runs the ports on the same defaults as FreeTAKServer.  You can 
 All data in this container is stored in `/data`.  This directory will need to be stored to a volume if you wish to persist data between updates.
 
 # Dockerhub
-https://hub.docker.com/r/freetakteam/freetakserver
+https://hub.docker.com/r/tonyw111a/freetakserver
