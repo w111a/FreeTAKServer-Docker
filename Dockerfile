@@ -2,7 +2,7 @@ FROM ubuntu:20.04
 
 LABEL maintainer=FreeTAKTeam
 
-ARG FTS_VERSION=1.9.6.1
+ARG FTS_VERSION=1.9.7.6
 ARG FTS_UI_VERSION=1.8.1
 
 # UTC for buildtimes
