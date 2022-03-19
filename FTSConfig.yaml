@@ -32,4 +32,3 @@ Certs:
   #FTS_FEDERATION_KEYPASS: demopassfed
   #FTS_CLIENT_CERT_PASSWORD: demopasscert
   #FTS_WEBSOCKET_KEY: YourWebsocketKey
-  FTS_Secret_Key: YourSecretKey
